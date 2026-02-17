@@ -1,5 +1,5 @@
 {
-  "name": "youtube-mp4-cli",
+  "name": "yt-mp4-cli",
   "version": "0.1.0",
   "description": "CLI tool to download YouTube videos as MP4 files",
   "bin": {

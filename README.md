@@ -1,11 +1,11 @@
-# youtube-mp4-cli
+# yt-mp4-cli
 
 Simple Node.js CLI tool to download YouTube videos as MP4 files.
 
 ## Installation
 
 ```bash
-npm install -g youtube-mp4-cli
+npm install -g yt-mp4-cli
 ```
 
 ## Usage
