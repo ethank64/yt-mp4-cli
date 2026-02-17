@@ -2,19 +2,30 @@
   "name": "yt-mp4-cli",
   "version": "0.1.0",
   "description": "CLI tool to download YouTube videos as MP4 files",
+  "type": "module",
+  "main": "bin/ytmp4.js",
   "bin": {
     "ytmp4": "./bin/ytmp4.js"
   },
   "scripts": {
     "start": "node ./bin/ytmp4.js"
   },
-  "keywords": ["youtube", "mp4", "downloader", "cli"],
-  "author": "Ethan Knotts",
+  "keywords": [
+    "youtube",
+    "download",
+    "mp4",
+    "cli"
+  ],
+  "author": "",
   "license": "MIT",
   "dependencies": {
-    "ytdl-core": "^4.11.5",
-    "commander": "^12.1.0",
-    "ora": "^8.0.1",
-    "chalk": "^5.3.0"
+    "@distube/ytdl-core": "^4.14.4",
+    "commander": "^11.1.0",
+    "cli-progress": "^3.12.0",
+    "fs-extra": "^11.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
+
